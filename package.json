@@ -3,11 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "echo 'No build step needed for static site' && exit 0"
-  },
-  "wrangler": {
-    "assets": {
-      "directory": "."
-    }
+    "build": "rm -rf .git .claude _archive team && echo 'Cleaned up artifacts' && exit 0"
   }
 }
