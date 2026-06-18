@@ -1,6 +1,9 @@
 # === Custom Exclusions ===
 .claude/
 *.md
+_archive
+.md/
+team/
 
 # === System Files ===
 .DS_Store
